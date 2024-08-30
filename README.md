@@ -16,7 +16,8 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 # Screenshot
-Add a screenshot of your solution.
+![advice-generator-app](https://github.com/user-attachments/assets/0067a97f-32a1-4935-9455-fd2f98e8f7e8)
+
 ### Links
 [LIVE DEMO](https://judithjude369.github.io/Advice-Generator-App/)
 
