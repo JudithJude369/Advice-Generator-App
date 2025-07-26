@@ -36,7 +36,11 @@ const App = () => {
   }
 
   if (isError) {
-    return <h2 style={{ textAlign: "center" }}>There was an error...</h2>;
+    return (
+      <h2 style={{ textAlign: "center", margin: "5rem auto" }}>
+        There was an error...
+      </h2>
+    );
   }
   return (
     <main>
