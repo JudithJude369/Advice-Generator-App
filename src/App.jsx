@@ -1,7 +1,7 @@
 import Advice from "@/components/Advice";
+import Button from "@/components/Button";
+import Loading from "@/components/Loading";
 import { useEffect, useState } from "react";
-import Loader from "@/components/Loader";
-import Button from "./components/Button";
 
 const url = "https://api.adviceslip.com/advice";
 const App = () => {
@@ -32,7 +32,7 @@ const App = () => {
   }, []);
 
   if (isLoading) {
-    return <Loader />;
+    return <Loading />;
   }
 
   if (isError) {
